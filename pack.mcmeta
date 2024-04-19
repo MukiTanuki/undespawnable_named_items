@@ -1,7 +1,22 @@
 {
    "pack": {
       "pack_format": 6,
+      "supported_formats": {
+			"min_inclusive": 6,
+			"max_inclusive": 41
+		},
       "description": "Makes Item Entities not despawn in the world if the item is named.",
 	  "author": "MukiTanuki"
-   }
+   },
+   "overlays": {
+		"entries": [
+			{
+				"directory": "1_20_5",
+				"formats": {
+					"min_inclusive": 41,
+					"max_inclusive": 9999999
+				}
+			}
+		]
+	}
 }
