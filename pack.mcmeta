@@ -1,0 +1,7 @@
+{
+   "pack": {
+      "pack_format": 6,
+      "description": "Makes Item Entities not despawn in the world if the item is named.",
+	  "author": "MukiTanuki"
+   }
+}
